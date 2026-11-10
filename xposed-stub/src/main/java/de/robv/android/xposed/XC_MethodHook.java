@@ -8,4 +8,7 @@ public abstract class XC_MethodHook {
         public Object getResult() { return null; }
         public void setResult(Object result) {}
     }
+    public class Unhook {
+        public void unhook() {}
+    }
 }
